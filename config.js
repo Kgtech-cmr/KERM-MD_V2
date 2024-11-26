@@ -18,7 +18,7 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vafn6hc7DAX3
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/40ffc2a288542560c887c.jpg";
 global.devs = "https://wa.me/237650564445 , https://wa.me/237656520674";
-global.sudo = process.env.SUDO || "237650564445";
+global.sudo = process.env.SUDO || "22871249452";
 global.owner = process.env.OWNER_NUMBER || "237656520674";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
@@ -32,7 +32,7 @@ global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "true";
+global.read_status = process.env.AUTO_READ_STATUS || "false";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
@@ -42,7 +42,7 @@ global.scan = "https://kgtech-v2-session.onrender.com";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "PUT YOUR SESSION HERE"
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK0lwYXlDbXUrQkVDSFJIaTZpVTRNSnczUFIrd25ZWkcvK2ZmY3pvOEFuST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUzNiM1A4SWkyOUdtcW0rdmczUDNDckdjYjhvWkNRbWpvZENqQ1JLYUN5ND0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJjRnNHVU4ybkhaeVBPS0R4QVJWMUhib05sVWVTL0tXT1BNTTJwcUZ2eTNVPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJyY3RQYmxITytpNUE0TmRXNnorcUFvdDNmT1Urc3BaY2dadnJGNVZlR2lzPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVPWEhiR0ZQQjRveXZ1QlNVTHhrdWppRWR3ZGF5Q0dma2FIbXZpNTJtRm89In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkI5Rk41Q0N0dzJSR2dyK3FxVVFkazNLQW9MMWp0bVBWcVJtcnpoSDR0MjA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY01ENTlXT3IrbEp6VzRocjlsVUR1cnhpOXhlcVNEVngwSVpJMm0vclcxVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNWFSanJKRGRENFpjaDNJeWNRaC9uTDFOSzRBbm5maUFSbVpoUlVZREpuRT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlYMktldFdYU1hmVGhBaVdYZGQwRUxmdHhhSkJ4TC91Q05ONkR4ajNsbnpzclVTNVZ2VXdZMXZYeW9MMGpLSkZ2NEFZb0VhT0RMKzZVTGphWkNDTENBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6OTgsImFkdlNlY3JldEtleSI6IlB3Ris3Mm1saExHUUhnQzNadlB6bXZQOVRrZlZNdlppR1ZhN3I3dm5pS1E9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IkZaUm5RcDg5UnpLMzhWY2hWM2FER3ciLCJwaG9uZUlkIjoiMDM2YjRkMGYtN2NmMS00ZjIwLWE1OTMtNjgzMWZlOThkYzU1IiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InlmSTZwVDdWdmhydUd3MERiZlpFNksvVnhmYz0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI0UTZMU3UyZFI4YUFvbVhQODRLcWIxaG5vU2s9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiWUZXRlFIUjMiLCJtZSI6eyJpZCI6IjIyMTc3MjEzMzE0ODo3QHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNLcmV0ZFFERUx6TWw3b0dHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiI0YTVud3U5K3A0UDZkT3ZNcGl6ZUZvOTJsUTRVNUFKZmxkdVBIdXZPaW4wPSIsImFjY291bnRTaWduYXR1cmUiOiJSZnA0S3BUNlF4cktFRU1DbHNuYlJZVldIRHllclcramY5K3lTNEx4Ni9oWkNSNWhCVXJuT1hQWGdWM08zRURWTlVqSCtoUEYyN3NNMlFsZ2c5MDFEUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoieG5Eekh5SEkvQkJTUVhkS0piTi93b1B2a1pKUktyZjVqZW90M3k0ckNmSVVpb2RKd1pORFJKS1R0SGF0OXZkcGVPQ0YzdXIvWk1rSHdxRHk4aWJLQUE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMjE3NzIxMzMxNDg6N0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJlR3VaOEx2ZnFlRCtuVHJ6S1lzM2hhUGRwVU9GT1FDWDVYYmp4N3J6b3A5In19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzMyNjM0MTg2fQ=="
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
