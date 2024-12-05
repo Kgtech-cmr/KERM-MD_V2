@@ -1,4 +1,4 @@
-## Deploy on VPS or PC.
+i## Deploy on VPS or PC.
 - You need to Install git,ffmpeg,curl,nodejs,yarn with pm2 
    1. Install git ffmpeg curl 
       ```
@@ -38,7 +38,7 @@
       copy paste lines below.
 
       ```
-      OWNER_NUMBER="237656520674"
+      OWNER_NUMBER="50944657894"
       MONGODB_URI=mongodb+srv://rahul:rahul@cluster0.ik98tiw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
       SESSION_ID = "ID-here"
       THUMB_IMAGE = "https://telegra.ph/file/40ffc2a288542560c887c.jpg"
